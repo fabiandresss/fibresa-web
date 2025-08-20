@@ -1,4 +1,4 @@
-# 🏗️ Fibresa – Página Web Corporativa  
+# Fibresa – Página Web Corporativa  
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
@@ -33,19 +33,7 @@ El sitio fue desarrollado con un enfoque moderno y **100% responsive**, garantiz
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto en local  
-1. Clona este repositorio:  
-   ```bash
-   git clone https://github.com/fabiandresss/fibresa-web.git
-Accede a la carpeta:
-
-bash
-Copiar
-Editar
-cd fibresa-web
-Abre el archivo index.html en tu navegador favorito.
-
-📷 Captura de Pantalla
+📷 Capturas de Pantalla
 
 (Reemplazar con una screenshot real del sitio)
 
