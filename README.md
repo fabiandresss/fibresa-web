@@ -37,3 +37,5 @@ El sitio fue desarrollado con un enfoque moderno y **100% responsive**, garantiz
 
 ![Banner](https://i.imgur.com/FtIAdKz.png)
 ![Banner](https://i.imgur.com/30dCHHk.png)
+![Banner](https://i.imgur.com/FdpAl59.jpeg)
+![Banner](https://i.imgur.com/GqHx3y2.jpeg)
