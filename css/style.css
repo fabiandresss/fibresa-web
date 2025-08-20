@@ -1,0 +1,1083 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color:  #951B81;
+}
+
+.navbar .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #d3b7ff;
+}
+
+.navbar-nav {
+    margin-right: 200px;
+}
+
+.nav-link {
+    white-space: nowrap;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#inicio {
+    background-image: url('../img/fondo-fibresa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+
+#inicio p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#imagen-logo {
+    width: 150px;
+    margin-left: -50px;
+}
+
+#quienesomos,
+#servicios-prioritarios,
+#clientes,
+#exito,
+#servicios {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+#quienesomos h2,
+#servicios-prioritarios h2,
+#clientes h2,
+#exito h2,
+#servicios h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+#quienesomos p,
+#servicios-prioritarios p,
+#clientes p,
+#exito p,
+#servicios p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #666;
+    text-align: justify;
+}
+
+#contacto {
+    background-color: #e9ecef;
+    padding: 80px 0;
+}
+
+#contacto h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+#contacto .form-label {
+    font-weight: 500;
+}
+
+#contacto .form-control {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#contacto button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#contacto button:hover {
+    background-color: #6a2fa3;
+}
+
+.footer-fibresa {
+    background-color: #1d1d1d;
+    color: #951B81;
+    font-size: 0.95rem;
+  }
+  
+  .footer-fibresa h5 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-fibresa .footer-link {
+    color: #cccccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-fibresa .footer-link:hover {
+    color: #ffffff;
+  }
+  
+  .footer-fibresa .social-icons a {
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-fibresa .social-icons a:hover {
+    color: #b65fcf;
+  }
+  
+  .copyright-footer {
+    background-color: #111;
+    font-size: 0.85rem;
+    color: #ccc;
+  }
+
+  .footer-fibresa .social-icons a {
+    text-decoration: none; /* elimina la rayita subrayada */
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+    display: inline-block;
+  }
+
+  .img-zoom-elegante {
+    transition: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1),
+                box-shadow 1s ease,
+                filter 1s ease;
+    will-change: transform, filter;
+    border-radius: 12px;
+}
+
+.img-zoom-elegante:hover {
+    transform: scale(1.03) translateY(-3px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    filter: brightness(1.03);
+}
+
+.custom-shape-divider-top-1746024304 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1746024304 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.custom-shape-divider-top-1746024304 .shape-fill {
+    fill:  #951B81;
+}
+
+.scroll-section {
+    position: relative;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.scroll-down span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 4px solid #951B81;
+    border-right: 4px solid #951B81;
+    transform: rotate(45deg);
+    animation: scrollBounce 1.5s infinite ease-in-out;
+}
+
+@keyframes scrollBounce {
+    0% {
+        transform: rotate(45deg) translateY(-5px);
+        opacity: 0.8;
+    }
+    50% {
+        transform: rotate(45deg) translateY(5px);
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(45deg) translateY(-5px);
+        opacity: 0.8;
+    }
+}
+
+/* CARD DE SERVICIOS - ESTILO FINAL */
+.servicio-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;             /* menos espacio interno */
+    max-width: 100%;
+}
+
+.servicio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.servicio-card .card-title {
+    color: #951B81;            /* morado Fibresa */
+    font-size: 1.25rem;        /* más pequeño */
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.servicio-card .card-text {
+    color: #444;
+    font-size: 0.95rem;        /* más compacto */
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.servicio-card img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    max-width: 42%;            /* imágenes más pequeñas */
+}
+
+.servicio-card img:hover {
+    transform: scale(1.03);
+}
+
+.bg-fibresa {
+    background-color: #951B81;
+}
+
+.fade-to-morado {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 80px; /* puedes aumentar o reducir esto para un degradado más largo o corto */
+    background: linear-gradient(to bottom, rgba(145, 39, 143, 0) 0%, #951B81 100%);
+    z-index: 1;
+  }
+
+  /* Fuerza misma altura entre todas las cards */
+.servicio-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Contenedor de cada columna también con altura igual */
+.col-md-6 {
+    display: flex;
+}
+
+/* Cuando el navbar está sobre fondo blanco */
+.navbar.blanco .nav-link.active {
+    color: #951B81; /* morado Fibresa */
+    border-bottom: 2px solid #951B81;
+    font-weight: bold;
+  }
+  
+  /* Cuando el navbar está sobre fondo morado */
+  .navbar.morado .nav-link.active {
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+  }
+  
+
+  .navbar.morado {
+    background-color: #951B81 !important;
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar.blanco {
+    background-color: white !important;
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar.blanco .nav-link {
+    color: #951B81;
+  }
+  
+  .navbar.morado .nav-link {
+    color: white;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .footer-fibresa {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    font-size: 0.95rem;
+    min-height: 300px; /* Fuerza a que el fondo aparezca */
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  #video-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .video-servicios {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .carousel-inner img {
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .carousel-inner img:hover {
+    transform: scale(1.08);
+  }
+
+  .carrusel-logos {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carrusel-track {
+    display: flex;
+    gap: 20px;
+    animation: scrollLogos 10s linear infinite;
+  }
+  
+  .card-logo {
+    flex: 0 0 auto;
+    background-color: #ececec; /* fondo ligeramente más oscuro */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    height: 140px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.6s ease;
+  }
+  
+  .card-logo:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-logo img {
+    max-height: 160px;
+    object-fit: contain;
+  }
+  
+  @keyframes scrollLogos {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .card-logo img {
+    max-height: 80px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .fade-bottom-white {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #ffffff 100%);
+    z-index: 1;
+}
+
+#inicio::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #ffffff 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.degradado-video-a-imagen {
+    height: 150px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #ffffff 100%);
+    position: relative;
+    margin-top: -5px;
+    z-index: 2;
+  }
+
+  .servicio-prioritario {
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .servicio-prioritario:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  }
+
+  .navbar.transparente {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+/* Estilo por defecto del navbar */
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Estilo base del navbar */
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.navbar .navbar-brand img {
+  transition: transform 0.3s ease;
+}
+
+.navbar.grande .navbar-brand img {
+  transform: scale(1.15); /* Aumento del 15% */
+}
+
+.navbar .nav-link {
+  transition: font-size 0.3s ease;
+}
+
+.navbar.grande .nav-link {
+  font-size: 1.2rem !important; /* Tamaño de texto aumentado */
+}
+
+/* ====== RESPONSIVE HERO CON VIDEO ====== */
+#inicio {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+#inicio .container {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+#video-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+
+/* ====== SERVICIOS CON VIDEO RESPONSIVE ====== */
+#servicios {
+  position: relative;
+  height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.video-servicios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+#servicios .container {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+/* ====== AJUSTES ADICIONALES PARA MÓVIL ====== */
+@media (max-width: 768px) {
+  .servicio-card .card-text {
+    font-size: 0.9rem;
+  }
+
+  .servicio-card .card-title {
+    font-size: 1rem;
+  }
+
+  .scroll-down span {
+    width: 20px;
+    height: 20px;
+    border-width: 3px;
+  }
+
+  #inicio h1 {
+    font-size: 2rem;
+  }
+
+  #inicio p {
+    font-size: 1rem;
+  }
+
+  .navbar .nav-link {
+    font-size: 0.95rem;
+  }
+}
+
+#quienes-somos {
+  scroll-margin-top: -100px; /* más abajo de lo normal */
+}
+
+#clientes {
+  scroll-margin-top: 100px; /* menos margen, más arriba */
+}
+
+#casos-exito {
+  scroll-margin-top: 60px; /* menos margen, más arriba */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Estilo por defecto (escritorio) */
+#video-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 1;
+}
+
+/* Ajustes solo para móviles */
+@media (max-width: 768px) {
+  #video-fondo {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: top center;
+  }
+}
+
+@media (max-width: 768px) {
+  #inicio {
+    background-image: none !important;
+  }
+}
+
+/* Mostrar solo en escritorio */
+.solo-escritorio {
+  display: block;
+}
+
+.solo-movil {
+  display: none;
+}
+
+/* En móviles, esconder video y mostrar imagen */
+@media (max-width: 768px) {
+  .solo-escritorio {
+    display: none !important;
+  }
+
+  .solo-movil {
+    display: block !important;
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen-fondo-movil {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #inicio {
+    height: auto !important;
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #inicio::after {
+    display: none !important;
+    content: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body,
+  html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #inicio,
+  #quienes-somos,
+  .imagen-fondo-movil {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: hidden !important;
+    display: block !important;
+  }
+
+  #inicio::after,
+  #inicio::before {
+    display: none !important;
+    content: none !important;
+    height: 0 !important;
+  }
+
+  /* Esto es por si Bootstrap mete spacing */
+  section {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .caso-exito-img-container {
+    justify-content: center !important;
+  }
+
+  .caso-exito-img-container img {
+    max-width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.imagen-fondo-movil {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #servicios {
+    height: 100vh !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+  }
+
+  .imagen-servicios-movil {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    object-fit: cover !important;
+    z-index: 1;
+  }
+
+  #servicios .container {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+/* Oculta por defecto */
+.solo-tablet {
+  display: none;
+}
+
+/* Solo se muestra en tablets (entre 769px y 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .solo-escritorio {
+    display: none !important;
+  }
+
+  .solo-movil {
+    display: none !important;
+  }
+
+  .solo-tablet {
+    display: block !important;
+  }
+
+  .imagen-tablet-hero,
+  .imagen-tablet-servicios {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  #inicio,
+  #servicios {
+    height: 100vh !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+  }
+
+  #inicio .container,
+  #servicios .container {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+/* Por defecto, se muestra solo escritorio */
+.img-quienes-pc {
+  display: block;
+}
+.img-quienes-tablet,
+.img-quienes-movil {
+  display: none;
+}
+
+/* Para tablets (ancho entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-quienes-pc,
+  .img-quienes-movil {
+    display: none;
+  }
+  .img-quienes-tablet {
+    display: block;
+  }
+}
+
+/* Para móviles (menos de 768px) */
+@media (max-width: 767px) {
+  .img-quienes-pc,
+  .img-quienes-tablet {
+    display: none;
+  }
+  .img-quienes-movil {
+    display: block;
+  }
+}
+
+
+
+html, body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+  #imagen-logo {
+    margin-left: 15px !important;
+  }
+}
+
+.navbar.morado .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar.transparente .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.offcanvas.offcanvas-end {
+  background-color: #951B81;
+  color: white;
+}
+
+.offcanvas .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  margin: 15px 0;
+  transition: color 0.3s ease;
+}
+
+.offcanvas .nav-link:hover {
+  color: #d3b7ff;
+}
+
+.offcanvas .offcanvas-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.offcanvas .btn-close {
+  filter: invert(1);
+}
+
+.offcanvas.offcanvas-end {
+  background-color: #951B81;
+  color: white;
+  padding: 1.5rem;
+}
+
+.offcanvas .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  margin: 12px 0;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 8px;
+}
+
+.offcanvas .nav-link:hover {
+  color: #d3b7ff;
+}
+
+.offcanvas .btn-close {
+  filter: invert(1);
+  font-size: 1.4rem;
+}
+
+/* --- Estilización PRO del offcanvas Fibresa --- */
+
+.offcanvas.offcanvas-end {
+  background-color: #951B81;
+  color: white;
+  padding: 1.5rem;
+  min-width: 260px;
+  border-left: none;
+  box-shadow: -5px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Header del menú */
+.offcanvas-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Estilo del botón cerrar */
+.offcanvas .btn-close {
+  filter: invert(1);
+  font-size: 1.4rem;
+}
+
+/* Links del menú */
+.offcanvas .nav-link {
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+/* Hover elegante */
+.offcanvas .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+/* Ajuste íconos si usas */
+.offcanvas .bi {
+  margin-right: 8px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+/* Footer opcional dentro del offcanvas */
+.offcanvas-body::after {
+  content: "© 2025 Fibresa";
+  display: block;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .carrusel-track {
+    animation: none !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    gap: 16px;
+  }
+
+  .carrusel-logos {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .card-logo {
+    flex: 0 0 auto;
+    width: 140px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #ececec;
+    border-radius: 12px;
+  }
+
+  .card-logo img {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+  }
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: white;
+  font-size: 28px;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.social-icons-offcanvas a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons-offcanvas a:hover {
+  color: #b65fcf;
+}
+
+.offcanvas .social-icons a {
+  color: white;
+  font-size: 1.6rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.offcanvas .social-icons a:hover {
+  color: #b65fcf;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+

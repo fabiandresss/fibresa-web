@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fibresa | Constructora</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80">
+
+  <!-- Navbar -->
+  <!-- NAVBAR -->
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top shadow">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#inicio">
+      <img id="imagen-logo" src="img/logo-fibresa.png" alt="Logo Fibresa">
+    </a>
+
+    <!-- Botón hamburguesa solo visible en móvil/tablet -->
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral" aria-controls="menuLateral">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú normal en escritorio -->
+    <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#quienes-somos">Quiénes Somos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios-prioritarios">Servicios Prioritarios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#clientes">Nuestros Clientes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#casos-exito">Casos de Éxito</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <!-- Solo visible en escritorio -->
+<li class="nav-item d-none d-lg-block">
+  <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasContacto" role="button" aria-controls="offcanvasContacto">
+    Contáctanos
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Menú lateral Offcanvas (solo visible en móvil/tablet) -->
+<div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="menuLateral">
+  <div class="offcanvas-header flex-column align-items-start">
+    <img src="img/logo-fibresa.png" alt="Logo Fibresa" style="max-width: 160px;" class="mb-3">
+    <button type="button" class="btn-close text-reset align-self-end" data-bs-dismiss="offcanvas"></button>
+  </div>
+  
+  <div class="offcanvas-body">
+    <ul class="navbar-nav text-center">
+      <li class="nav-item"><a class="nav-link" href="#inicio" data-bs-dismiss="offcanvas">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link" href="#quienes-somos" data-bs-dismiss="offcanvas">Quiénes Somos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#servicios-prioritarios" data-bs-dismiss="offcanvas">Servicios Prioritarios</a></li>
+      <li class="nav-item"><a class="nav-link" href="#clientes" data-bs-dismiss="offcanvas">Nuestros Clientes</a></li>
+      <li class="nav-item"><a class="nav-link" href="#casos-exito" data-bs-dismiss="offcanvas">Casos de Éxito</a></li>
+      <li class="nav-item"><a class="nav-link" href="#servicios" data-bs-dismiss="offcanvas">Servicios</a></li>
+    </ul>
+    <div class="mt-4">
+      <h5 class="text-uppercase fw-bold">Contáctanos</h5>
+      <p><i class="bi bi-envelope-fill me-2"></i>edgardaviles@fibresa.cl</p>
+      <div class="social-icons-offcanvas mt-3">
+        <a href="https://www.linkedin.com/company/fibresa" class="me-3" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/fibresa.cl/" class="me-3" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://wa.me/56951691921" target="_blank"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+  <!-- Hero -->
+  <section id="inicio" class="position-relative seccion-bg-morado">
+    <!-- Video solo escritorio -->
+    <video autoplay muted loop playsinline id="video-fondo" class="solo-escritorio">
+      <source src="img/SOLUCIONES TÉCNICAS, COMPROMISO REAL.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+    </video>
+  
+    <!-- Imagen solo móvil -->
+    <img src="img/TT Firs Neue.png" alt="Fibresa Móvil" class="solo-movil imagen-fondo-movil">
+
+    <!-- Imagen solo tablet -->
+<img src="img/“SOLUCIONES TÉCNICAS, COMPROMISO REAL”.png" alt="Hero Tablet" class="solo-tablet imagen-tablet-hero">
+
+  </section>
+  
+  
+  
+  
+  
+  
+  </section>
+
+
+<!-- Quiénes Somos -->
+<section id="quienes-somos" class="seccion-bg-blanco">
+  <!-- Imagen para escritorio -->
+  <div class="img-quienes-pc">
+    <img src="img/Diseño sin título (42).png" alt="Quiénes Somos PC" class="img-fluid w-100">
+  </div>
+
+  <!-- Imagen para tablets -->
+  <div class="img-quienes-tablet">
+    <img src="img/“SOLUCIONES TÉCNICAS, COMPROMISO REAL” (2).png" alt="Quiénes Somos Tablet" class="img-fluid w-100">
+  </div>
+
+  <!-- Imagen para móviles -->
+  <div class="img-quienes-movil">
+    <img src="img/TT Firs Neue (2).png" alt="Quiénes Somos Móvil" class="img-fluid w-100">
+  </div>
+</section>
+
+
+
+  
+  
+
+  <!-- Servicios Prioritarios -->
+  <section id="servicios-prioritarios"> 
+  <h2 class="text-center mb-5" style="font-weight: 700; color: #951B81; margin-top: 50px;">Nuestros Servicios Prioritarios</h2>
+  <div class="row justify-content-center g-3">
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="nuestros-servicios-prioritarios/1.png" alt="Servicio 1" class="img-fluid servicio-prioritario w-75" data-target="servicio1">
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="nuestros-servicios-prioritarios/2.png" alt="Servicio 2" class="img-fluid servicio-prioritario w-75" data-target="servicio2">
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="nuestros-servicios-prioritarios/3.png" alt="Servicio 3" class="img-fluid servicio-prioritario w-75" data-target="servicio3">
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="nuestros-servicios-prioritarios/4.png" alt="Servicio 4" class="img-fluid servicio-prioritario w-75" data-target="servicio4">
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="nuestros-servicios-prioritarios/5.png" alt="Servicio 5" class="img-fluid servicio-prioritario w-75" data-target="servicio5">
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 text-center">
+      <img src="nuestros-servicios-prioritarios/6.png" alt="Servicio 6" class="img-fluid servicio-prioritario w-75" data-target="servicio6">
+    </div>
+  </div>
+</section>
+
+
+ <!-- Nuestros Clientes (Cinta deslizante automática) -->
+<section id="clientes" class="p-5 seccion-bg-blanco">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-5" style="font-weight: 700; color: #951B81; margin-top: 50px;">Nuestros Clientes</h2>
+      <div class="carrusel-logos">
+        <div class="carrusel-track">
+          <!-- Logos originales -->
+          <div class="card-logo"><img src="logos-empresas/AngloAmerican.png" alt="AngloAmerican"></div>
+          <div class="card-logo"><img src="logos-empresas/AUSTRAL.png" alt="AUSTRAL"></div>
+          <div class="card-logo"><img src="logos-empresas/Duoc Uc.png" alt="Duoc UC"></div>
+          <div class="card-logo"><img src="logos-empresas/Enami.png" alt="Enami"></div>
+          <div class="card-logo"><img src="logos-empresas/FedericoStaMaria.png" alt="Federico Santa María" class="logo-federico-santa-maria"></div>
+          <div class="card-logo"><img src="logos-empresas/JASSEN.png" alt="JASSEN"></div>
+          <div class="card-logo"><img src="logos-empresas/LOGO-UM-GRIS-H.png" alt="Universidad Mayor"></div>
+          <div class="card-logo"><img src="logos-empresas/LucasDiesel.png" alt="Lucas Diesel" class="logo-lucas-diesel"></div>
+          <div class="card-logo"><img src="logos-empresas/Pelambres.png" alt="Pelambres" class="logo-pelambres"></div>
+          <div class="card-logo"><img src="logos-empresas/UdeChile.png" alt="Universidad de Chile"></div>
+          <div class="card-logo"><img src="logos-empresas/Usach.png" alt="Usach"></div>
+  
+          <!-- Duplicados para bucle infinito -->
+          <div class="card-logo"><img src="logos-empresas/AngloAmerican.png" alt="AngloAmerican"></div>
+<div class="card-logo"><img src="logos-empresas/AUSTRAL.png" alt="AUSTRAL"></div>
+<div class="card-logo"><img src="logos-empresas/Duoc Uc.png" alt="Duoc UC"></div>
+<div class="card-logo"><img src="logos-empresas/Enami.png" alt="Enami"></div>
+<div class="card-logo"><img src="logos-empresas/FedericoStaMaria.png" alt="Federico Santa María" class="logo-federico-santa-maria"></div>
+<div class="card-logo"><img src="logos-empresas/JASSEN.png" alt="JASSEN"></div>
+<div class="card-logo"><img src="logos-empresas/LOGO-UM-GRIS-H.png" alt="Universidad Mayor"></div>
+<div class="card-logo"><img src="logos-empresas/LucasDiesel.png" alt="Lucas Diesel" class="logo-lucas-diesel"></div>
+<div class="card-logo"><img src="logos-empresas/Pelambres.png" alt="Pelambres" class="logo-pelambres"></div>
+<div class="card-logo"><img src="logos-empresas/UdeChile.png" alt="Universidad de Chile"></div>
+<div class="card-logo"><img src="logos-empresas/Usach.png" alt="Usach"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+<!-- Casos de Éxito -->
+<section id="casos-exito" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5" data-aos="fade-up" style="font-weight: 700; color: #951B81; margin-top: 50px; font-size: 2.7rem;">Casos de Éxito</h2>
+      <div class="row g-4">
+  
+        <!-- Card 1: Duoc UC -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card servicio-card shadow-sm">
+            <div class="card-body">
+              <div class="text-center mb-3">
+                <img src="img/logo-duoc.png" alt="Duoc UC" class="img-fluid" style="max-width: 180px;">
+              </div>
+              <p class="card-text" style="font-size: 1.1rem;">
+                Colaboración con Duoc UC por más de 4 años, destacando el cumplimiento, versatilidad y respuesta técnica oportuna.
+              </p>
+              <div class="d-flex flex-wrap justify-content-start align-items-center caso-exito-img-container">
+                <img src="duoc-uc/DUOC1.png" class="img-fluid rounded me-3 mb-2" style="max-width: 48%;">
+                <img src="duoc-uc/DUOC5.png" class="img-fluid rounded mb-2" style="max-width: 48%;">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 2: Anglo American -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="card servicio-card shadow-sm">
+            <div class="card-body">
+              <div class="text-center mb-3">
+                <img src="img/anglo-american.png" alt="Anglo American" class="img-fluid" style="max-width: 180px;">
+              </div>
+              <p class="card-text" style="font-size: 1.1rem;">
+                Más de 6 años ejecutando soluciones FRP en ambientes industriales exigentes para Anglo American.
+              </p>
+              <div class="d-flex flex-wrap justify-content-start align-items-center caso-exito-img-container">
+                <img src="anglo-american/Disen╠âo sin ti╠ütulo (29).png" class="img-fluid rounded me-3 mb-2" style="max-width: 48%;">
+                <img src="anglo-american/Disen╠âo sin ti╠ütulo (32).png" class="img-fluid rounded mb-2" style="max-width: 48%;">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 3: La Araucana -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="card servicio-card shadow-sm">
+            <div class="card-body">
+              <div class="text-center mb-3">
+                <img src="img/logo-la-araucana.png" alt="La Araucana" class="img-fluid" style="max-width: 180px;">
+              </div>
+              <p class="card-text" style="font-size: 1.1rem;">
+                Soluciones sostenibles e innovadoras: sistemas solares, baterías EcoFlow, e impermeabilización de techos.
+              </p>
+              <div class="d-flex flex-wrap justify-content-start align-items-center caso-exito-img-container">
+                <img src="la-araucana/20231117-IMG_-4381.jpg" class="img-fluid rounded me-3 mb-2" style="max-width: 48%;">
+                <img src="la-araucana/20231117-IMG_-4396.jpg" class="img-fluid rounded mb-2" style="max-width: 48%;">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 4: Lucas Diesel -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="card servicio-card shadow-sm">
+            <div class="card-body">
+              <div class="text-center mb-3">
+                <img src="img/logo-lucas-diesel.png" alt="Lucas Diesel" class="img-fluid" style="max-width: 180px;">
+              </div>
+              <p class="card-text" style="font-size: 1.1rem;">
+                Apoyo en expansión logística y administrativa: nuevas bodegas, renovación de oficinas y refuerzo estructural.
+              </p>
+              <div class="d-flex flex-wrap justify-content-start align-items-center caso-exito-img-container">
+                <img src="lucas-diesel/Disen╠âo sin ti╠ütulo (26).png" class="img-fluid rounded me-3 mb-2" style="max-width: 48%;">
+                <img src="lucas-diesel/Disen╠âo sin ti╠ütulo (27).png" class="img-fluid rounded mb-2" style="max-width: 48%;">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Servicios -->
+  <section id="servicios" class="scroll-section text-white text-center d-flex align-items-center justify-content-center position-relative seccion-bg-morado" style="min-height: 100vh; overflow: hidden;">
+    <!-- Video solo escritorio -->
+<video autoplay muted loop playsinline class="video-servicios solo-escritorio">
+  <source src="img/SOLUCIONES TÉCNICAS, COMPROMISO REAL (1).mp4" type="video/mp4">
+  Tu navegador no soporta videos HTML5.
+</video>
+
+<!-- Imagen solo móvil -->
+<img src="img/TT Firs Neue (4).png" alt="Servicios Fibresa Móvil" class="solo-movil imagen-servicios-movil">
+
+<!-- Imagen solo tablet -->
+<img src="img/“SOLUCIONES TÉCNICAS, COMPROMISO REAL” (1).png" alt="Servicios Tablet" class="solo-tablet imagen-tablet-servicios">
+
+
+  
+    <div class="container position-relative" data-aos="fade-up">
+      <!-- Puedes agregar contenido aquí si lo deseas -->
+    </div>
+  
+    <div class="scroll-down" data-aos="fade-up"><span></span></div>
+    <div class="fade-to-morado"></div>
+  </section>
+  
+
+  <section class="bg-fibresa pt-5 pb-5 seccion-bg-morado">
+    <div class="container">
+  <div class="row g-4 justify-content-center">
+    <div class="col-12 col-md-6" id="servicio1">
+      <div class="card servicio-card shadow-sm">
+
+        <div class="card-body">
+          <h4 class="card-title">CONSTRUCCIÓN Y HABILITACIONES</h4>
+          <p class="card-text">
+            Desarrollo y ejecución de obras de adecuación, remodelación y habilitación de espacios institucionales y corporativos.<br>
+            - Obras civiles menores, tabiquería, pintura, mobiliario.<br>
+            - Diseño y ejecución de proyectos de infraestructura interior.
+          </p>
+          <div class="d-flex flex-wrap justify-content-start align-items-center">
+            <img src="img/servicio1.1.png" class="img-fluid rounded me-3 mb-2" style="max-width: 45%;">
+            <img src="img/servicio1.2.png" class="img-fluid rounded mb-2" style="max-width: 45%;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6" id="servicio2">
+        <div class="card servicio-card shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">OBRAS CIVILES Y MEJORAMIENTO DE INFRAESTRUCTURACONSTRUCCIÓN Y HABILITACIONES</h4>
+            <p class="card-text">
+              Desarrollamos obras civiles menores y medianas, abarcando pavimentos, canalizaciones, obras exteriores, estructuras y proyectos de urbanización.<br>
+              Nuestro enfoque se basa en la eficiencia constructiva, el cumplimiento normativo y la adaptabilidad a las necesidades de cada cliente, garantizando 
+              soluciones duraderas y funcionales en entornos industriales, educacionales y urbanos.
+            </p>
+            <div class="d-flex flex-wrap justify-content-start align-items-center">
+              <img src="img/servicio2.1.png" class="img-fluid rounded me-3 mb-2" style="max-width: 45%;">
+              <img src="img/servicio2.2.png" class="img-fluid rounded mb-2" style="max-width: 45%;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6" id="servicio3">
+        <div class="card servicio-card shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">SERVICIOS A LA INFRAESTRUCTURA EDUCACIONAL E INDUSTRIAL
+            </h4>
+            <p class="card-text">
+                Ejecutamos proyectos de remodelación integral, enfocados en la mejora funcional y estética de espacios.<br>
+                Incluimos soluciones en accesibilidad universal, pintura interior y exterior, instalación de sistemas de climatización y una gama de servicios misceláneos adaptados a las necesidades específicas de cada cliente.<br>
+                Nuestro equipo técnico asegura calidad, cumplimiento y eficiencia en cada intervención.
+            </p>
+            <div class="d-flex flex-wrap justify-content-start align-items-center">
+              <img src="img/servicio3.1.png" class="img-fluid rounded me-3 mb-2" style="max-width: 45%;">
+              <img src="img/servicio3.2.png" class="img-fluid rounded mb-2" style="max-width: 45%;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6" id="servicio4">
+        <div class="card servicio-card shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">SERVICIOS A LA MINERÍA</h4>
+            <p class="card-text">
+                Desarrollamos proyectos especiales y fabricaciones en fibra de vidrio reforzada (FRP), así como revestimientos antideslizantes para ambientes industriales de alta exigencia.<br>
+                Ofrecemos soluciones personalizadas, resistentes a la corrosión química, humedad y temperatura, garantizando durabilidad y desempeño en condiciones operativas extremas.<br>
+            </p>
+            <div class="d-flex flex-wrap justify-content-start align-items-center">
+              <img src="img/servicio4.1.png" class="img-fluid rounded me-3 mb-2" style="max-width: 45%;">
+              <img src="img/servicio4.2.png" class="img-fluid rounded mb-2" style="max-width: 45%;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6" id="servicio5">
+        <div class="card servicio-card shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">PRODUCTOS Y EQUIPAMIENTO PARA BIOTERIOS</h4>
+            <p class="card-text">
+                Diseñamos y suministramos mobiliario técnico, estaciones de trabajo, sistemas de ventilación y equipamiento especializado para laboratorios y bioterios.<br>
+                Con amplia experiencia en el ámbito académico y científico, somos proveedores consolidados de universidades estatales y privadas, entregando soluciones funcionales que cumplen con las normativas de bioseguridad y los estándares exigidos para la investigación científica.
+            </p>
+            <div class="d-flex flex-wrap justify-content-start align-items-center">
+              <img src="img/servicio5.1.png" class="img-fluid rounded me-3 mb-2" style="max-width: 45%;">
+              <img src="img/servicio5.2.png" class="img-fluid rounded mb-2" style="max-width: 45%;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6" id="servicio6">
+        <div class="card servicio-card shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">SERVICIOS DE EMERGENCIA Y MANTENIMIENTO INDUSTRIAL</h4>
+            <p class="card-text">
+                Línea de servicio especializada en atención eléctrica de emergencia, así como en mantenimiento preventivo y correctivo de sistemas eléctricos, mecánicos y de infraestructura industrial.<br>
+                - Atención 24/7 para fallas eléctricas críticas.<br>
+                - Diagnóstico, reparación y reposición de sistemas<br>
+                - Mantenimiento programado en instalaciones industriales, educacionales y comerciales.<br>
+                - Revisión de tableros, luminarias, canalizaciones, motores, entre otros.
+            </p>
+            <div class="d-flex flex-wrap justify-content-start align-items-center">
+              <img src="img/servicio6.1.png" class="img-fluid rounded me-3 mb-2" style="max-width: 45%;">
+              <img src="img/servicio6.2.png" class="img-fluid rounded mb-2" style="max-width: 45%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Fin bloque card -->
+  </div>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer-fibresa text-white"  data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+    <div class="container py-5">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-4">
+          <img src="img/logo-fibresa.png" alt="Logo Fibresa" style="max-width: 180px;" class="mb-3">
+          <p>Soluciones técnicas, compromiso real.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase fw-bold">Enlaces</h5>
+          <ul class="list-unstyled">
+            <li><a href="#inicio" class="footer-link"><i class="bi bi-house-door me-2"></i>Inicio</a></li>
+            <li><a href="#quienes-somos" class="footer-link"><i class="bi bi-people me-2"></i>Quiénes somos</a></li>
+            <li><a href="#servicios" class="footer-link"><i class="bi bi-gear me-2"></i>Servicios</a></li>
+            <li><a href="#contacto" class="footer-link"><i class="bi bi-envelope me-2"></i>Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase fw-bold">Contáctanos</h5>
+          <p><i class="bi bi-envelope-fill me-2"></i>edgardaviles@fibresa.cl</p>
+          <div class="social-icons mt-3">
+            <a href="https://www.linkedin.com/company/fibresa" class="me-3" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/fibresa.cl/" class="me-3" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/56951691921" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 copyright-footer">
+      © 2025 Fibresa.
+    </div>
+  </footer>
+
+  <!-- Offcanvas de contacto (solo web) -->
+<div class="offcanvas offcanvas-end d-none d-lg-block" tabindex="-1" id="offcanvasContacto" aria-labelledby="offcanvasContactoLabel">
+  <div class="offcanvas-header bg-fibresa text-white">
+    <h5 class="offcanvas-title" id="offcanvasContactoLabel">Contáctanos</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p><i class="bi bi-envelope-fill me-2"></i>edgardaviles@fibresa.cl</p>
+    <div class="social-icons mt-3">
+      <a href="https://www.linkedin.com/company/fibresa" class="me-3" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.instagram.com/fibresa.cl/" class="me-3" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://wa.me/56951691921" target="_blank"><i class="bi bi-whatsapp"></i></a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <script>
+    const dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'));
+    dataSpyList.forEach(function (dataSpyEl) {
+      bootstrap.ScrollSpy.getInstance(dataSpyEl) || new bootstrap.ScrollSpy(dataSpyEl, {
+        target: dataSpyEl.getAttribute('data-bs-target'),
+        offset: parseInt(dataSpyEl.getAttribute('data-bs-offset')) || 0
+      });
+    });
+  </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const navbar = document.querySelector(".navbar");
+    const secciones = document.querySelectorAll("section");
+    const logo = document.getElementById("imagen-logo");
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            navbar.classList.remove("morado", "blanco", "transparente", "grande");
+
+            if (entry.target.id === "inicio") {
+              navbar.classList.add("transparente", "grande");
+              logo.src = "img/logo-fibresa.png";
+            } else {
+              const esMorado = entry.target.classList.contains("seccion-bg-morado");
+              navbar.classList.add(esMorado ? "morado" : "blanco");
+              logo.src = esMorado ? "img/logo-fibresa.png" : "img/fibresamorado.png";
+            }
+          }
+        });
+      },
+      {
+        threshold: 0.6
+      }
+    );
+
+    secciones.forEach(seccion => observer.observe(seccion));
+  });
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const servicios = document.querySelectorAll(".servicio-prioritario");
+
+    servicios.forEach(function (img) {
+      img.addEventListener("click", function () {
+        const targetId = this.getAttribute("data-target");
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80, // para dejar espacio bajo el navbar
+            behavior: "smooth"
+          });
+        }
+      });
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll('#menuLateral .nav-link');
+    const offcanvasElement = document.getElementById('menuLateral');
+    const offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasElement);
+
+    links.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+          offcanvas.hide(); // cerrar el offcanvas primero
+
+          // esperar a que se cierre antes de hacer scroll
+          setTimeout(() => {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }, 300);
+        }
+      });
+    });
+  });
+</script>
+
+<a href="https://wa.me/56951691921" 
+   class="whatsapp-float" 
+   target="_blank" 
+   title="Contáctanos por WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+
+</body>
+</html>
