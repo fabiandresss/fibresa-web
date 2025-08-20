@@ -35,5 +35,5 @@ El sitio fue desarrollado con un enfoque moderno y **100% responsive**, garantiz
 
 📷 Capturas de Pantalla
 
-(Reemplazar con una screenshot real del sitio)
-
+![Banner](https://i.imgur.com/FtIAdKz.png)
+![Banner](https://i.imgur.com/30dCHHk.png)
